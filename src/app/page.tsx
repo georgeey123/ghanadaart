@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Logo = () => (
   <span style={{ fontWeight: 700, fontSize: 32, letterSpacing: 0 }}>
@@ -18,11 +19,9 @@ export default function Home() {
           <Logo />
         </div>
         <ul className="flex items-center gap-8 text-base font-medium">
-          <li className="hover:text-black/70 cursor-pointer">Prizes</li>
-          <li className="hover:text-black/70 cursor-pointer">Exhibitions</li>
-          <li className="hover:text-black/70 cursor-pointer">Consultation</li>
-          <li className="hover:text-black/70 cursor-pointer">About</li>
-          <li className="hover:text-black/70 cursor-pointer">Contact</li>
+  <li className="hover:text-black/70 cursor-pointer"><Link href="/exhibitions">Exhibitions</Link></li>
+  <li className="hover:text-black/70 cursor-pointer"><Link href="/about">About</Link></li>
+  <li className="hover:text-black/70 cursor-pointer"><Link href="/contact">Contact</Link></li>
         </ul>
       </nav>
       <header className="relative flex flex-col md:flex-row bg-black h-[320px] md:h-[400px] overflow-hidden">
