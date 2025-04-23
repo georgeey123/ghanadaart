@@ -5,8 +5,8 @@ const Logo = () => (
   <span style={{ fontWeight: 700, fontSize: 32, letterSpacing: 0 }}>
     <span style={{ color: '#ff0000' }}>Gh</span>
     <span style={{ color: '#ffdc00' }}>anada</span>
-    <span style={{ color: '#008000' }}>Art</span> <br />
-    <span style={{ color: '#000000' }}>Expo</span>
+    <span style={{ color: '#008000' }}>Art</span>
+    <span style={{ color: '#000000' }}> Expo</span>
 
   </span>
 );
@@ -43,13 +43,6 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <div className="w-full bg-zinc-100 px-4 py-3 shadow text-xs text-zinc-700 flex justify-between items-center">
-        <span className="flex gap-2">
-          <a href="#" className="text-zinc-500 underline">Cookie settings</a>
-          <button className="px-3 py-1 bg-zinc-300 rounded hover:bg-zinc-400">Deny all</button>
-          <button className="px-3 py-1 bg-blue-500 text-white rounded hover:bg-blue-600">Allow all cookies</button>
-        </span>
-      </div>
       {/* Main Info Panels */}
       <section className="py-12 px-4 md:px-24 grid grid-cols-1 md:grid-cols-2 gap-8 bg-gradient-to-r from-[#cc43eb]/30 via-[#51bef9]/15 to-[#fafafa]">
         <div className="bg-white/90 rounded-xl shadow-md p-8">
