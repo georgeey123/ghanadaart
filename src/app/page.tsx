@@ -2,9 +2,11 @@ import React from "react";
 
 const Logo = () => (
   <span style={{ fontWeight: 700, fontSize: 32, letterSpacing: 0 }}>
-    <span style={{ color: '#ff0000' }}>gh</span>
+    <span style={{ color: '#ff0000' }}>Gh</span>
     <span style={{ color: '#ffdc00' }}>anada</span>
-    <span style={{ color: '#008000' }}>art</span>
+    <span style={{ color: '#008000' }}>Art</span> <br />
+    <span style={{ color: '#000000' }}>Expo</span>
+
   </span>
 );
 
@@ -26,7 +28,7 @@ export default function Home() {
       <header className="relative flex flex-col md:flex-row bg-black h-[320px] md:h-[400px] overflow-hidden">
         <div className="flex flex-col justify-center p-8 md:p-14 h-full w-full md:w-1/2 z-20">
           <h1 className="text-white text-3xl md:text-5xl font-bold leading-tight">
-            ghanadaart<br />MADE IN
+            GhanadaArt Expo
           </h1>
         </div>
         <div
@@ -43,9 +45,6 @@ export default function Home() {
         </div>
       </header>
       <div className="w-full bg-zinc-100 px-4 py-3 shadow text-xs text-zinc-700 flex justify-between items-center">
-        <span>
-          About cookies on this site &ndash; We use cookies to collect and analyse information on site performance and usage, to provide social media features and to enhance and customise content and advertisements.
-        </span>
         <span className="flex gap-2">
           <a href="#" className="text-zinc-500 underline">Cookie settings</a>
           <button className="px-3 py-1 bg-zinc-300 rounded hover:bg-zinc-400">Deny all</button>
@@ -55,12 +54,12 @@ export default function Home() {
       {/* Main Info Panels */}
       <section className="py-12 px-4 md:px-24 grid grid-cols-1 md:grid-cols-2 gap-8 bg-gradient-to-r from-[#cc43eb]/30 via-[#51bef9]/15 to-[#fafafa]">
         <div className="bg-white/90 rounded-xl shadow-md p-8">
-          <h2 className="font-black text-xl mb-3">You make ghanadaart what it is!</h2>
+          <h2 className="font-black text-xl mb-3">You make GhanadaArt what it is!</h2>
           <p className="mb-2">
-            <b>Artists</b> are an integral part of ghanadaart. Whether you are born and raised here, or now call this your home, your unique perspective and creative input are what make this place one of the most exciting arts hubs in THE WORLD. But hey, we’re not biased!
+            <b>Artists</b> are an integral part of GhanadaArt. Whether you are born and raised here, or now call this your home, your unique perspective and creative input are what make this place one of the most exciting arts hubs in THE WORLD. But hey, we’re not biased!
           </p>
           <p>
-            As a gallery, we have developed the Made in ghanadaart Art Award to champion our local community. There are simply looking for ghanadaart-based creatives to be a part of our annual showcase exhibition.
+            As a gallery, we have developed the Made in GhanadaArt Art Award to champion our local community. There are simply looking for ghanadaart-based creatives to be a part of our annual showcase exhibition.
             <br/>
             Some of the qualities we value are storytelling, visual concept, creative idea, composition, abstraction and artistic sensibilities.
           </p>
@@ -76,35 +75,6 @@ export default function Home() {
             <li>1 winner selected by the jury will receive a cash prize of 300€ and be part of a group exhibition at ghanadaart Gallery</li>
           </ul>
         </div>
-      </section>
-      {/* Award Details */}
-      <section className="py-14 px-4 md:px-24 grid md:grid-cols-2 gap-12 items-center">
-        <div className="flex flex-col items-center md:items-start">
-          <img src="https://ext.same-assets.com/1094691372/3452771007.svg" alt="ghanadaart award" className="w-56 mb-6 rounded" />
-          <div className="font-black text-lg mb-2">Made in ghanadaart Art Award<br/>FINAL WEEK!</div>
-          <div className="text-base font-semibold mb-2">Cash prize 300€<br/>Group exhibition at ghanadaart Gallery<br/>Artsy profile</div>
-        </div>
-        <div className="flex flex-col">
-          <div className="bg-white p-6 rounded-xl shadow">
-            <div className="font-semibold mb-2">Made in ghanadaart Art Award 2025</div>
-            <div className="text-sm mb-2">18.00€</div>
-            <ul className="list-disc pl-5 mb-4 text-sm">
-              <li>Name, country, contact information</li>
-              <li>Artwork title, medium, size, weight, year of creation</li>
-              <li>1 image jpg or png (up to 3 MB per file)</li>
-            </ul>
-            <div className="text-xs mb-3">
-              You can upload anytime before the <b>28th April 2025, midnight</b>. You will receive an application link via Email.<br/>
-              Fee is for administration purposes, no additional fees will be charged to exhibit.
-            </div>
-            <button className="mt-2 px-6 py-3 bg-black text-white rounded-full font-bold shadow hover:bg-zinc-900">ENTER NOW</button>
-          </div>
-        </div>
-      </section>
-      {/* Anniversary Section */}
-      <section className="py-12 md:py-20 px-4 md:px-24">
-        <div className="font-black text-2xl mb-6">Be part of the ghanadaart Prizes 10-Year Anniversary Exhibition!</div>
-        <img className="w-full max-w-2xl aspect-video object-cover rounded-xl shadow mx-auto" src="https://ugc.same-assets.com/_06lE4Dn2VEUh-9t-ioN9EPWapGl71E0.jpeg" alt="Exhibition venue" />
       </section>
     </main>
   );
