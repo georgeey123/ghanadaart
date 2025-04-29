@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const Logo = () => (
-  <span style={{ fontWeight: 700, fontSize: 32, letterSpacing: 0 }}>
+  <span style={{ fontWeight: 700, fontSize: 26, letterSpacing: 0 }}>
     <span style={{ color: '#ff0000' }}>Gh</span>
     <span style={{ color: '#ffdc00' }}>anada</span>
     <span style={{ color: '#008000' }}>Art</span>
